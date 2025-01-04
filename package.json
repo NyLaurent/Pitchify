@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "packageManager": "npm@10.9.1",
+  "overrides": {
+    "react":"$react",
+    "react-dom":"$react-dom"
+  },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
