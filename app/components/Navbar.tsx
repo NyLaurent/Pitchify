@@ -19,8 +19,9 @@ const Navbar = async () => {
             <>
               <Link href="/startup/create">
                 <span className="max-sm:hidden">Create</span>
-               
               </Link>
+
+              
 
               <form
                 action={async () => {
@@ -31,11 +32,13 @@ const Navbar = async () => {
               >
                 <button type="submit">
                   <span className="max-sm:hidden">Logout</span>
-                 
+                  
                 </button>
+                
               </form>
 
               <Link href={`/user/${session?.id}`}>
+              <span>{session?.user?.name}</span>
                
               </Link>
             </>
