@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "dev": "next dev --turbopack",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "predev": "npm run typegen",
+  "prebuild": "npm run typegen",
+  "typegen": "sanity schema extract --path=./sanity/extract.json && sanity typegen generate"
+},
+
   "packageManager": "npm@10.9.1",
   "overrides": {
     "react": "$react",
