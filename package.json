@@ -28,6 +28,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sanity": "^3.59.2-canary.33",
+    "sanity-plugin-markdown": "^5.0.0",
     "styled-components": "^6.1.14",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
