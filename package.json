@@ -13,9 +13,9 @@
   },
   "packageManager": "npm@10.9.1",
   "overrides": {
-  "react": "^19.0.0",
-  "react-dom": "^19.0.0"
-},
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
     "@sanity/icons": "^3.5.7",
@@ -25,6 +25,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.469.0",
+    "markdown-it": "^14.1.0",
     "next": "15.1.3",
     "next-auth": "^5.0.0-beta.25",
     "next-sanity": "^9.8.32",
@@ -40,6 +41,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/markdown-it": "^14.1.2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
