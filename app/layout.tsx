@@ -57,6 +57,9 @@ const workSans = localFont({
 });
 
 export const metadata: Metadata = {
+  icons:{
+    icon: '/favicon.ico',
+  },
   title: "Pitchify",
   description: "Pitch, Vote and Grow",
 };
