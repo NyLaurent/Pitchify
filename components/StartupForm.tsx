@@ -44,9 +44,9 @@ const StartupForm = () => {
       return result;
     } catch (error) {
       if (error instanceof z.ZodError) {
-        const fieldErrors = error.flatten().fieldErrors;
+        const fieldErorrs = error.flatten().fieldErrors;
 
-        setErrors(fieldErrors as unknown as Record<string, string>);
+        setErrors(fieldErorrs as unknown as Record<string, string>);
 
         toast({
           title: "Error",
@@ -102,7 +102,7 @@ const StartupForm = () => {
           name="description"
           className="startup-form_textarea"
           required
-          placeholder="Startup Description" 
+          placeholder="Startup Description"
         />
 
         {errors.description && (
