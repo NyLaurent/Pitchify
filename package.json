@@ -33,7 +33,7 @@
     "easymde": "^2.18.0",
     "lucide-react": "^0.469.0",
     "markdown-it": "^14.1.0",
-    "next": "15.1.3",
+    "next": "^15.1.5",
     "next-auth": "^5.0.0-beta.25",
     "next-sanity": "^9.8.32",
     "react": "^19.0.0",
